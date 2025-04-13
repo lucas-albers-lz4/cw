@@ -345,5 +345,6 @@ Focused use of two primary LLMs:
 
 4. System Rules Configuration
    - Enable in "Cursor Settings -> Rules"
+   - My system rules assume I am macos so fix that if needed
    - Add [RULES.md](./RULES.md) to override system rules
    - This document contains comprehensive programming guidelines and interaction rules
