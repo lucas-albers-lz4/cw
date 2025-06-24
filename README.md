@@ -293,7 +293,7 @@ Focused use of two primary LLMs:
   - Recommended for complex tasks
 
 ## Additional Configuration
-- System prompt configuration (See: [System Prompt Configuration Guide] - link to be added)
+- System prompt configuration [system-prompt.md](./system-prompt.md) to override system rules
 
 ## Best Practices
 - Maintain clear separation between design, implementation, and development phases
