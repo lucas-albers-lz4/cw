@@ -184,22 +184,23 @@ The chosen LLMs for each stage leverage their specific strengths (e.g., ideation
 #### Design Stage
 Sequential use of three LLMs for comprehensive design analysis:
 1. Gemini Pro 2.5
-2. Claude-Sonnet-3.7 (Thinking)
+2. Claude-Sonnet-4.0 (Thinking)
 3. DeepSeek R1
+4. Claude Opus (Much more expensive and on cursor requires per per token to use.)
 
 #### Implementation Stage
 Same sequence of LLMs for implementation planning:
 1. Gemini Pro 2.5
-2. Claude-Sonnet-3.7 (Thinking)
+2. Claude-Sonnet-4.0 (Thinking)
 
 #### Development Stage
 Focused use of two primary LLMs:
-1. Claude-Sonnet-3.7 (Thinking) - Primary editor
+1. Claude-Sonnet-4.0 (Thinking) - Primary editor
 2. Gemini Pro 2.5 - Problem-solving assistant
 
 #### LLM Usage Notes
 - DeepSeek R1: Excellent for ideation and gap analysis, not recommended for direct programming
-- Claude-Sonnet-3.7: Superior for direct code editing and implementation
+- Claude-Sonnet-4.0: Superior for direct code editing and implementation
 - Gemini Pro 2.5: Strong support for problem-solving
 - Multiple LLM perspective provides comprehensive analysis and fills potential gaps
 
@@ -287,7 +288,7 @@ Focused use of two primary LLMs:
 #### Cost and Performance Considerations
 - Token usage: 5x to 8x increase
 - Response time: Longer due to detailed analysis
-- Best combined with Claude Sonnet 3.7 (Thinking) mode
+- Best combined with Claude Sonnet 4.0 (Thinking) mode
   - Small additional delay
   - Doubles token count
   - Recommended for complex tasks
